@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 
-app.use(cors({ origin: 'https://monalisa-cruise.github.io/frontend_for_CLV/' }));
+app.use(cors({ origin: 'https://monalisa-cruise.github.io/' }));
 const PORT = 50000;
 
 // Mock data for candidates
